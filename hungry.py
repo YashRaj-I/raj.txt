@@ -1,5 +1,9 @@
-hungry = input("is your hungry :")
+hungry = input("are you hungry :")
 if hungry =='yes':
     print("Eat roti")
 else:
-    print("do your work")
+    thirsty = input("are you thirsty: ")
+    if thirsty == 'yes':
+        print("drink water")
+    else:
+        print("do your work")
